@@ -86,8 +86,8 @@ public class Frame_view extends Frame implements ActionListener, WindowListener{
 	@Override
 	public void actionPerformed(ActionEvent e) {
 		// TODO Auto-generated method stub
-		int val1 = Integer.parseInt(text1.getText());
-		int val2 = Integer.parseInt(text2.getText());
+		double val1 = Double.parseDouble(text1.getText());
+		double val2 = Double.parseDouble(text2.getText());
 		//text3.setText(String.valueOf(val1 + val2));
 		if(e.getSource() == button1) {
 			Calculation_lib clib = new Calculation_lib(val1, val2);

@@ -1,30 +1,31 @@
 package lib;
 
 public class Calculation_lib { 
-	private int m, n;
+	private double m, n;
 
-	public Calculation_lib(int m, int n) {
+	public Calculation_lib(double m, double n) {
 		this.m = m; //thisがつくとフィールド、ないとローカル変数
 		this.n = n;
 	}
 	
-	public int getPlus() {
+
+	public double getPlus() {
 		return this.m + this.n;
 	}
 	
-	public int getMinus() {
+	public double getMinus() {
 		return this.m - this.n;
 	}
 
-	public int getTime() {
+	public double getTime() {
 		return this.m * this.n;
 	}
 	
-	public int getDivide() {
+	public double getDivide() {
 		return this.m / this.n;
 	}
 
-	public int getMod() {
+	public double getMod() {
 		return this.m % this.n;
 	}
 
